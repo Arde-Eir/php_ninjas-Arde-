@@ -87,10 +87,11 @@ function renderAdminSidebar($activePage = '') {
         'dashboard.php' => ['Dashboard', 'fas fa-tachometer-alt'],
         'manageMovies.php' => ['Movies', 'fas fa-film'],
         '#users' => ['Users', 'fas fa-users'],
-        '#bookings' => ['Bookings', 'fas fa-ticket-alt'],
+        'adminBookings.php' => ['Bookings', 'fas fa-ticket-alt'],
         '#showtimes' => ['Showtimes', 'fas fa-calendar-alt'],
         '#reports' => ['Reports', 'fas fa-chart-bar'],
         '../logout.php' => ['Logout', 'fas fa-sign-out-alt']
+
     ];
     
     echo '<aside class="admin-sidebar">';

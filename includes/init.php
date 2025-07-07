@@ -27,3 +27,4 @@ $adminService = new AdminService($conn);
 
 // Set base URL for links
 $base_url = '/php_ninjas/';
+

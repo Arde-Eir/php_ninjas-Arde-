@@ -1,6 +1,6 @@
 <?php
-include 'includes/init.php';
-include 'includes/header.php';
+include '../includes/init.php';
+include '../includes/header.php';
 ?>
 
 <div class="container">
@@ -87,4 +87,4 @@ include 'includes/header.php';
     </div>
 </div>
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>
